@@ -1,0 +1,70 @@
+.register {
+  align-items: center;
+  background-color: #ffffffb2;
+  border-radius: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 52px 47px;
+  position: relative;
+}
+
+.register .text-wrapper {
+  color: #000000;
+  font-family: var(--title-64-font-family);
+  font-size: var(--title-64-font-size);
+  font-style: var(--title-64-font-style);
+  font-weight: var(--title-64-font-weight);
+  letter-spacing: var(--title-64-letter-spacing);
+  line-height: var(--title-64-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.register .div {
+  color: #000000;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.register .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 77px;
+  justify-content: center;
+  position: relative;
+}
+
+.register .div-wrapper {
+  align-items: center;
+  background-color: #aecde9b5;
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 27px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+}
+
+.register .text-wrapper-2 {
+  color: #000000;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}

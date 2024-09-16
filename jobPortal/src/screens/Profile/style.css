@@ -1,0 +1,42 @@
+.profile {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 7px 6px 5px;
+  position: relative;
+}
+
+.profile .navbar-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.profile .navbar-850 {
+  left: 764px !important;
+}
+
+.profile .instance-node {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.profile .profile-card-instance {
+  margin-left: -30px !important;
+  margin-right: -30px !important;
+}
+
+.profile .profile-card-2 {
+  margin-left: -29.75px !important;
+  margin-right: -29.75px !important;
+}
+
+.profile .instance-node-2 {
+  margin-right: -3px !important;
+}
+
+.profile .navbar-1440 {
+  left: 720px !important;
+}

@@ -1,0 +1,52 @@
+.register-screen {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.register-screen .navbar-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.register-screen .navbar-850 {
+  left: 766px !important;
+}
+
+.register-screen .navbar-1440 {
+  left: 722px !important;
+}
+
+.register-screen .image {
+  align-self: stretch;
+  display: block;
+  height: 725px;
+  object-fit: cover;
+  position: relative;
+  transform: translate(0, 25px);
+  width: 100%;
+}
+
+.register-screen .class {
+  flex: 0 0 auto !important;
+  gap: 85px !important;
+  justify-content: center !important;
+}
+
+.register-screen .class-2 {
+  left: 404px !important;
+  position: absolute !important;
+  top: 410px !important;
+}
+
+.register-screen .class-3 {
+  height: 4px !important;
+}
+
+.register-screen .class-4 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+}

@@ -1,0 +1,50 @@
+.registeremp {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 20px;
+  position: relative;
+}
+
+.registeremp .navbar-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.registeremp .navbar-850 {
+  left: 766px !important;
+}
+
+.registeremp .navbar-1440 {
+  left: 722px !important;
+}
+
+.registeremp .image {
+  align-self: stretch;
+  height: 725px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.registeremp .class {
+  flex: 0 0 auto !important;
+}
+
+.registeremp .class-2 {
+  left: 451px !important;
+  position: absolute !important;
+  top: 126px !important;
+}
+
+.registeremp .class-3 {
+  height: 28px !important;
+}
+
+.registeremp .class-4 {
+  height: 28px !important;
+  left: 617px !important;
+  position: absolute !important;
+  top: 1137px !important;
+}

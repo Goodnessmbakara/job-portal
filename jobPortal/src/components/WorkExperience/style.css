@@ -1,0 +1,104 @@
+.work-experience {
+  align-items: flex-start;
+  border: 5px solid;
+  border-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 139px 20px 50px;
+  position: relative;
+}
+
+.work-experience .text-wrapper-12 {
+  color: #2c6295;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -5px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.work-experience .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 75px;
+  position: relative;
+}
+
+.work-experience .duration-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.work-experience .text-wrapper-13 {
+  color: #000000;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.work-experience .text-wrapper-14 {
+  color: #000000;
+  font-family: var(--profiletext-30-font-family);
+  font-size: var(--profiletext-30-font-size);
+  font-style: var(--profiletext-30-font-style);
+  font-weight: var(--profiletext-30-font-weight);
+  letter-spacing: var(--profiletext-30-letter-spacing);
+  line-height: var(--profiletext-30-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.work-experience .group-2 {
+  height: 171px;
+  position: relative;
+  width: 289px;
+}
+
+.work-experience .position-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.work-experience .company-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 65px;
+}
+
+.work-experience .location-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 130px;
+}

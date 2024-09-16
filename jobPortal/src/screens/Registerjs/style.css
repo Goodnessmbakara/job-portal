@@ -1,0 +1,61 @@
+.registerjs {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 5px 5px 20px;
+  position: relative;
+}
+
+.registerjs .navbar-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.registerjs .navbar-850 {
+  left: 766px !important;
+}
+
+.registerjs .image {
+  align-self: stretch;
+  height: 725px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.registerjs .navbar-1440 {
+  left: 722px !important;
+}
+
+.registerjs .image-2 {
+  align-self: stretch;
+  display: block;
+  height: 725px;
+  object-fit: cover;
+  position: relative;
+  transform: translate(0, 25px);
+  width: 100%;
+}
+
+.registerjs .class {
+  flex: 0 0 auto !important;
+}
+
+.registerjs .class-2 {
+  left: 417px !important;
+  position: absolute !important;
+  top: 210px !important;
+}
+
+.registerjs .class-3 {
+  height: 28px !important;
+}
+
+.registerjs .class-4 {
+  height: 28px !important;
+  left: 617px !important;
+  position: absolute !important;
+  top: 1137px !important;
+}

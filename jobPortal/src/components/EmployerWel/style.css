@@ -1,0 +1,72 @@
+.employer-wel {
+  height: 1166px;
+  opacity: 100;
+  position: relative;
+  transform: translate(0, 25px);
+  width: 1430px;
+}
+
+.employer-wel .text-wrapper {
+  color: #1e1e1e;
+  font-family: var(--title-64-font-family);
+  font-size: var(--title-64-font-size);
+  font-style: var(--title-64-font-style);
+  font-weight: var(--title-64-font-weight);
+  left: 462px;
+  letter-spacing: var(--title-64-letter-spacing);
+  line-height: var(--title-64-line-height);
+  position: absolute;
+  top: -1px;
+}
+
+.employer-wel .image {
+  height: 725px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 127px;
+  width: 1430px;
+}
+
+.employer-wel .frame {
+  align-items: center;
+  background-color: #aecde9b5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 107px;
+  left: 515px;
+  padding: 15px 23px;
+  position: absolute;
+  top: 902px;
+  width: 400px;
+}
+
+.employer-wel .div {
+  color: #000000;
+  font-family: var(--title-64-font-family);
+  font-size: var(--title-64-font-size);
+  font-style: var(--title-64-font-style);
+  font-weight: var(--title-64-font-weight);
+  letter-spacing: var(--title-64-letter-spacing);
+  line-height: var(--title-64-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.employer-wel .div-wrapper {
+  align-items: center;
+  background-color: #aecde9b5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 107px;
+  left: 515px;
+  padding: 15px 31px;
+  position: absolute;
+  top: 1059px;
+  width: 400px;
+}

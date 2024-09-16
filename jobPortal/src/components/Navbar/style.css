@@ -1,0 +1,25 @@
+.navbar {
+  height: 145px;
+  position: relative;
+  width: 848px;
+}
+
+.navbar .logo-trans {
+  height: 145px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 165px;
+}
+
+.navbar .navbtn {
+  height: 31px;
+  left: 774px;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  transition: all 0.2s ease-in-out;
+  width: 53px;
+}

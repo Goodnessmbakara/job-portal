@@ -1,0 +1,104 @@
+.training {
+  align-items: flex-start;
+  border: 5px solid;
+  border-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 139px 20px 50px;
+  position: relative;
+}
+
+.training .text-wrapper-9 {
+  color: #2c6295;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -5px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.training .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 75px;
+  position: relative;
+}
+
+.training .duration {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.training .text-wrapper-10 {
+  color: #000000;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.training .text-wrapper-11 {
+  color: #000000;
+  font-family: var(--profiletext-30-font-family);
+  font-size: var(--profiletext-30-font-size);
+  font-style: var(--profiletext-30-font-style);
+  font-weight: var(--profiletext-30-font-weight);
+  letter-spacing: var(--profiletext-30-letter-spacing);
+  line-height: var(--profiletext-30-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.training .group {
+  height: 171px;
+  position: relative;
+  width: 289px;
+}
+
+.training .position {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.training .company {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 65px;
+}
+
+.training .location {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 130px;
+}

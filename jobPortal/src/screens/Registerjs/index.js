@@ -1,0 +1,1 @@
+export { Registerjs } from "./Registerjs";

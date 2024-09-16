@@ -1,0 +1,46 @@
+.homepageemp {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 100vh;
+  padding: 5px;
+  position: relative;
+}
+
+.homepageemp .navbar-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.homepageemp .navbar-850 {
+  left: 766px !important;
+}
+
+.homepageemp .employer-wel-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+  margin-left: -295px !important;
+  margin-right: -295px !important;
+}
+
+.homepageemp .instance-node {
+  left: 290px !important;
+  width: 850px !important;
+}
+
+.homepageemp .navbar-1440 {
+  left: 722px !important;
+}
+
+.homepageemp .employer-wel-2 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+}
+
+.homepageemp .copyright-2024-jobportal {
+  height: 28px !important;
+}

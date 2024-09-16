@@ -1,0 +1,60 @@
+.education {
+  align-items: flex-start;
+  border: 5px solid;
+  border-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 422px 20px 50px;
+  position: relative;
+}
+
+.education .text-wrapper-6 {
+  color: #2c6295;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -5px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.education .div-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.education .text-wrapper-7 {
+  color: #000000;
+  font-family: var(--profiletitle-34-font-family);
+  font-size: var(--profiletitle-34-font-size);
+  font-style: var(--profiletitle-34-font-style);
+  font-weight: var(--profiletitle-34-font-weight);
+  letter-spacing: var(--profiletitle-34-letter-spacing);
+  line-height: var(--profiletitle-34-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.education .text-wrapper-8 {
+  color: #000000;
+  font-family: var(--profiletext-30-font-family);
+  font-size: var(--profiletext-30-font-size);
+  font-style: var(--profiletext-30-font-style);
+  font-weight: var(--profiletext-30-font-weight);
+  letter-spacing: var(--profiletext-30-letter-spacing);
+  line-height: var(--profiletext-30-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}

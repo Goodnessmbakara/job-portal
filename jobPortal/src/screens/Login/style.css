@@ -1,0 +1,50 @@
+.login {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.login .navbar-instance {
+  align-self: stretch !important;
+  width: 100% !important;
+}
+
+.login .navbar-850 {
+  left: 766px !important;
+}
+
+.login .navbar-1440 {
+  left: 722px !important;
+}
+
+.login .image {
+  align-self: stretch;
+  display: block;
+  height: 725px;
+  object-fit: cover;
+  position: relative;
+  transform: translate(0, 25px);
+  width: 100%;
+}
+
+.login .class {
+  flex: 0 0 auto !important;
+}
+
+.login .class-2 {
+  left: 404px !important;
+  position: absolute !important;
+  top: 349px !important;
+}
+
+.login .class-3 {
+  height: 28px !important;
+}
+
+.login .class-4 {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: unset !important;
+}

@@ -1,0 +1,94 @@
+.job-search {
+  background-image: url(https://c.animaapp.com/MlmHrukd/img/image-5.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 725px;
+  position: relative;
+  transform: translate(0, 25px);
+  width: 1438px;
+}
+
+.job-search .frame {
+  align-items: center;
+  background-color: #ffffffb2;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  height: 67px;
+  justify-content: space-around;
+  left: 60px;
+  padding: 14px 17px;
+  position: absolute;
+  top: 441px;
+  width: 478px;
+}
+
+.job-search .text-wrapper {
+  color: #1e1e1e;
+  flex: 1;
+  font-family: var(--textbox-24-font-family);
+  font-size: var(--textbox-24-font-size);
+  font-style: var(--textbox-24-font-style);
+  font-weight: var(--textbox-24-font-weight);
+  letter-spacing: var(--textbox-24-letter-spacing);
+  line-height: var(--textbox-24-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.job-search .div-wrapper {
+  align-items: center;
+  background-color: #fffdfdb2;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  height: 67px;
+  justify-content: space-around;
+  left: 552px;
+  padding: 14px 32px;
+  position: absolute;
+  top: 441px;
+  width: 477px;
+}
+
+.job-search .div {
+  align-items: center;
+  background-color: #e4eef7;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  height: 67px;
+  justify-content: center;
+  left: 1045px;
+  padding: 17px 119px;
+  position: absolute;
+  top: 441px;
+  width: 299px;
+}
+
+.job-search .text-wrapper-2 {
+  color: #1e1e1e;
+  font-family: var(--textbox-24-font-family);
+  font-size: var(--textbox-24-font-size);
+  font-style: var(--textbox-24-font-style);
+  font-weight: var(--textbox-24-font-weight);
+  letter-spacing: var(--textbox-24-letter-spacing);
+  line-height: var(--textbox-24-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.job-search .text-wrapper-3 {
+  color: #aecde9;
+  font-family: var(--title-64-font-family);
+  font-size: var(--title-64-font-size);
+  font-style: var(--title-64-font-style);
+  font-weight: var(--title-64-font-weight);
+  height: 77px;
+  left: 70px;
+  letter-spacing: var(--title-64-letter-spacing);
+  line-height: var(--title-64-line-height);
+  position: absolute;
+  top: 334px;
+}
