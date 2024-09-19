@@ -11,15 +11,11 @@ export const Loginas = ({ className }) => {
     <div className={`loginas ${className}`}>
       <div className="text-wrapper">Welcome to Job Portal</div>
       <div className="div">login</div>
-      <div className="frame">
-        <div className="text-wrapper-2">Email</div>
-      </div>
-      <div className="div-wrapper">
-        <div className="text-wrapper-3">password</div>
-      </div>
+      <input className="text-wrapper-2" placeholder="Email" type="Email"  required />   
+      <input className="text-wrapper-3" placeholder="Password" type="password"  required />
       <div className="frame-2">
         <div className="text-wrapper-4">Don’t have an account?</div>
-        <div className="text-wrapper-5">Register</div>
+        <button className="text-wrapper-5">Register</button>
       </div>
     </div>
   );

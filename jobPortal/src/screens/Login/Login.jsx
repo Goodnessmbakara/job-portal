@@ -13,29 +13,51 @@ export const Login = () => {
     <div
       className="login"
       style={{
-        gap: screenWidth < 1440 ? "31px" : screenWidth >= 1440 ? "26px" : undefined,
-        minHeight: screenWidth >= 1440 ? "100vh" : undefined,
-        minWidth: screenWidth < 1440 ? "850px" : screenWidth >= 1440 ? "1440px" : undefined,
-        padding: screenWidth < 1440 ? "5px" : screenWidth >= 1440 ? "5px 5px 20px" : undefined,
+        gap: screenWidth < 1200 ? "31px" : screenWidth >= 1200 ? "26px" : undefined,
+        minHeight: screenWidth >= 1200 ? "100vh" : undefined,
+        minWidth: screenWidth < 1200 ? "850px" : screenWidth >= 1200 ? "1200px" : undefined,
+        padding: screenWidth < 1200 ? "5px" : screenWidth >= 1200 ? "5px 5px 20px" : undefined,
       }}
     >
-      {screenWidth < 1440 && <Navbar className="navbar-instance" navbtnClassName="navbar-850" />}
+      {screenWidth < 1200 && (
+        <>
+          <Navbar
+            className="navbar-instance"
+            navbtnClassName="navbar-850" />
+          <img
+            className="image"
+            alt="Image"
+            src="https://c.animaapp.com/Cmzf1Ne1/img/image-1.png"
+          />
+          <Loginas
+            className="class"
+          />
+          <Copyright
+            className="class-3"
+          />
+        </>
+      )}
 
-      {screenWidth >= 1440 && <NavbarWrapper className="navbar-instance" navButtonsClassName="navbar-1440" />}
-
-      <img
-        className="image"
-        alt="Image"
-        src={
-          screenWidth < 1440
-            ? "https://c.animaapp.com/Cmzf1Ne1/img/image.png"
-            : screenWidth >= 1440
-            ? "https://c.animaapp.com/Cmzf1Ne1/img/image-1.png"
-            : undefined
-        }
-      />
-      <Loginas className={`${screenWidth < 1440 && "class"} ${screenWidth >= 1440 && "class-2"}`} />
-      <Copyright className={`${screenWidth < 1440 && "class-3"} ${screenWidth >= 1440 && "class-4"}`} />
+      {screenWidth >= 1200 && (
+        <>
+          <NavbarWrapper
+            className="navbar-instance"
+            navButtonsClassName="navbar-1200" />
+          <div className="contain">
+            <img
+              className="image"
+              alt="Image"
+              src="https://c.animaapp.com/Cmzf1Ne1/img/image-1.png"
+            />
+            <Loginas
+              className="class-2"
+            />
+          </div>
+          <Copyright
+            className="class-4"
+          />
+        </>
+      )}
     </div>
   );
 };

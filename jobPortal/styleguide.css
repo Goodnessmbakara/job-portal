@@ -41,4 +41,10 @@
   --underline-34-font-weight: 400;
   --underline-34-letter-spacing: 0px;
   --underline-34-line-height: normal;
+  --title-50-font-family: "Advent Pro", Helvetica;
+  --title-50-font-size: 50px;
+  --title-50-font-style: normal;
+  --title-50-font-weight: 400;
+  --title-50-letter-spacing: 0px;
+  --title-50-line-height: normal;
 }

@@ -11,40 +11,69 @@
   width: 100% !important;
 }
 
-.login .navbar-850 {
-  left: 766px !important;
-}
-
-.login .navbar-1440 {
-  left: 722px !important;
+.login .contain {
+  position: relative;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login .image {
-  align-self: stretch;
-  display: block;
-  height: 725px;
+  position: absolute; /* Ensure the image stays in the background */
+  top: -10px;
+  height: 100%;
+  width: 98vw;
   object-fit: cover;
+  z-index: 1;
+  align-self: center;
+}
+
+.login .class-2 {
   position: relative;
-  transform: translate(0, 25px);
-  width: 100%;
+  z-index: 2; /* Layer content above the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .class-4 {
+  flex: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .login .class {
   flex: 0 0 auto !important;
 }
 
-.login .class-2 {
-  left: 404px !important;
-  position: absolute !important;
-  top: 349px !important;
-}
-
 .login .class-3 {
+  position: relative;
+  z-index: 2;
   height: 28px !important;
 }
 
-.login .class-4 {
-  flex: 1 !important;
-  flex-grow: 1 !important;
-  height: unset !important;
+/* Adjustments for screen sizes below 1200px */
+@media (max-width: 1199px) {
+  .login {
+    min-width: 850px;
+    padding: 5px;
+  }
+
+  .login .contain {
+    height: auto; /* Let height adjust based on content */
+  }
+
+  .login .image {
+    position: relative; /* Allow image to follow content flow */
+    height: auto;
+  }
+
+  .login .class-2,
+  .login .class-4,
+  .login .class-3 {
+    position: static;
+    z-index: auto;
+  }
 }
