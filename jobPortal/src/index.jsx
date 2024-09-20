@@ -47,7 +47,7 @@ function ScrollToTop() {
         element: <Registeremp/>
     },
     {
-        path: "/RegisterScreen",
+        path: "/Register",
         element: <RegisterScreen/>
     },
     {

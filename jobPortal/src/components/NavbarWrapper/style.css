@@ -1,12 +1,14 @@
 .navbar-wrapper {
-  height: 145px;
+  height: 160px;
   position: relative;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   box-sizing: border-box;
+  background-color: #f0f8ff;
+  border-radius: 0px 0px 15px 15px;
+  
 }
 
 .navbar-wrapper .img {
@@ -20,23 +22,19 @@
 
 .navbar-wrapper .nav-buttons {
   height: 24px;
-  position: relative;
-  margin-left: 44vw;
+  margin-left: auto; /* Aligns buttons to the right */
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
 }
 
-.navbar-wrapper button{
+.navbar-wrapper button {
   background: none;
   border: none;
   padding: 30px;
   transition: all 0.2s ease;
   white-space: nowrap;
-}
-
-.navbar-wrapper .text-wrapper-7 {
   color: #000000;
   font-family: var(--nav-20-font-family);
   font-size: var(--nav-20-font-size);
@@ -46,68 +44,10 @@
   line-height: var(--nav-20-line-height);
   position: relative;
   top: 0;
+  transition: all 0.5ms ease-in-out;
 }
 
-.navbar-wrapper .job-categories {
-  color: #000000;
-  font-family: var(--nav-20-font-family);
-  font-size: var(--nav-20-font-size);
-  font-style: var(--nav-20-font-style);
-  font-weight: var(--nav-20-font-weight);
-  letter-spacing: var(--nav-20-letter-spacing);
-  line-height: var(--nav-20-line-height);
-  position: relative;
-  top: 0;
+.navbar-wrapper button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
 }
-
-.navbar-wrapper .text-wrapper-6 {
-  color: #000000;
-  font-family: var(--nav-20-font-family);
-  font-size: var(--nav-20-font-size);
-  font-style: var(--nav-20-font-style);
-  font-weight: var(--nav-20-font-weight);
-  letter-spacing: var(--nav-20-letter-spacing);
-  line-height: var(--nav-20-line-height);
-  position: relative;
-  top: 0;
-}
-
-.navbar-wrapper .text-wrapper-5 {
-  color: #000000;
-  font-family: var(--nav-20-font-family);
-  font-size: var(--nav-20-font-size);
-  font-style: var(--nav-20-font-style);
-  font-weight: var(--nav-20-font-weight);
-  letter-spacing: var(--nav-20-letter-spacing);
-  line-height: var(--nav-20-line-height);
-  position: relative;
-  top: 0;
-}
-
-.navbar-wrapper .text-wrapper-4 {
-  color: #000000;
-  font-family: var(--nav-20-font-family);
-  font-size: var(--nav-20-font-size);
-  font-style: var(--nav-20-font-style);
-  font-weight: var(--nav-20-font-weight);
-  letter-spacing: var(--nav-20-letter-spacing);
-  line-height: var(--nav-20-line-height);
-  position: relative;
-  padding: 10px;
-}
-
-.navbar-wrapper .text-wrapper-3 {
-  color: #000000;
-  font-family: var(--nav-20-font-family);
-  font-size: var(--nav-20-font-size);
-  font-style: var(--nav-20-font-style);
-  font-weight: var(--nav-20-font-weight);
-  letter-spacing: var(--nav-20-letter-spacing);
-  line-height: var(--nav-20-line-height);
-  position: relative;
-  white-space: nowrap;
-  top: 0;
-}
-
-
-

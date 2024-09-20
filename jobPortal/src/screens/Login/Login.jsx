@@ -14,7 +14,6 @@ export const Login = () => {
       className="login"
       style={{
         gap: screenWidth < 1200 ? "20px" : "20px", // Consistent gap
-        padding: screenWidth < 1200 ? "5px" : "5px 5px 20px", // Responsive padding
       }}
     >
       {screenWidth < 1200 ? (

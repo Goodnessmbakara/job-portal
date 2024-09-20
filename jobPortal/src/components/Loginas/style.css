@@ -13,6 +13,7 @@
   justify-content: center;
   padding: 52px 47px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .loginas .text-wrapper {

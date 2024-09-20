@@ -12,12 +12,12 @@ export const NavbarWrapper = ({ className, navButtonsClassName }) => {
     <div className={`navbar-wrapper ${className}`}>
       <img className="img" alt="Logo trans" src="https://c.animaapp.com/FJTzofRG/img/logo-trans-1-3@2x.png" />
       <div className={`nav-buttons ${navButtonsClassName}`}>
-        <Link to="/"><button className="text-wrapper-7">HOME</button></Link>
+        <Link to="/"><button className="home">HOME</button></Link>
         <button className="job-categories">JOB CATEGORIES</button>
-        <button className="text-wrapper-6">PROFILE</button>
-        <button className="text-wrapper-5">CONTACT</button>
-        <Link to="/Register"><button className="text-wrapper-4">REGISTER</button></Link>
-        <Link to="/Login"><button className="text-wrapper-3">LOGIN</button></Link>
+        <button className="profile">PROFILE</button>
+        <button className="contact">CONTACT</button>
+        <Link to="/Register"><button className="register">REGISTER</button></Link>
+        <Link to="/Login"><button className="loginbtn">LOGIN</button></Link>
       </div>
     </div>
   );

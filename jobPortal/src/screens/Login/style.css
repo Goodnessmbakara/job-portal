@@ -4,17 +4,17 @@
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-  width: 100vw; /* Full viewport width */
+  width: 100%; /* Full viewport width */
   min-height: 100vh; /* Full viewport height */
-  padding: 5px;
   gap: 20px;
   position: relative;
+  top: 5vw;
 }
 
 .login .navbar-instance {
   position: fixed;
   top: 0;
-  width: 100vw; /* Full width */
+  width: 100%; /* Full width */
   z-index: 10;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .login .image {
-  width: 100vw; /* Full viewport width */
+  width: 98vw; /* Full viewport width */
   height: auto;
   object-fit: cover;
   position: absolute;
@@ -85,6 +85,7 @@ body, .login, .navbar {
 @media (max-width: 1199px) {
   .login {
     padding: 5px;
+    top: 15vw;
   }
 
   .login .contain {
