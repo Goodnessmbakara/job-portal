@@ -1,8 +1,14 @@
 import express from "express";
-import { createJobSeeker } from "../controller/jobseeker.controller.js";
+import {
+  registerJobSeeker,
+  loginJobSeeker,
+  deleteJobSeeker,
+} from "../controller/jobseeker.controller.js";
 
 const router = express.Router();
 
-router.post("/", createJobSeeker);
+router.post("/register", registerJobSeeker);
+router.post("/login", loginJobSeeker);
+router.delete("/login", deleteJobSeeker);
 
 export default router;
