@@ -1,25 +1,115 @@
+/* Make navbar responsive */
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 145px;
+  padding: 0 20px;
   position: relative;
-  width: 848px;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Make padding count towards width */
 }
 
 .navbar .logo-trans {
-  height: 145px;
-  left: 0;
+  height: 100px;
   object-fit: cover;
-  position: absolute;
-  top: 0;
   transition: all 0.2s ease;
-  width: 165px;
+  width: auto;
 }
 
 .navbar .navbtn {
-  height: 31px;
-  left: 774px;
-  object-fit: cover;
-  position: absolute;
-  top: 23px;
+  height: 40px;
+  cursor: pointer; /* Make it clickable */
   transition: all 0.2s ease-in-out;
-  width: 53px;
+  width: 40px;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  position: absolute;
+  top: 70px; /* Adjust based on your navbar */
+  right: 20px;
+  background-color: #aecfe9; /* Light background like in the image */
+  box-shadow: 0 4px 12px #2c6396b7; /* Add shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  z-index: 1000;
+  padding: 10px;
+  width: 220px;
+}
+
+.dropdown-item {
+  padding: 10px 5px;
+  background-color: #ffffffad;
+  border: none;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  font-family: var(--text-20-font-family);
+  font-size: var(--text-20-font-size);
+  margin: 5px 0; /* Space between items */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.212);
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #0385ff8f;
+  cursor: pointer;
+}
+
+/* Make the navbar responsive */
+@media (max-width: 768px) {
+  .navbar {
+    height: 100px;
+    padding: 0 10px;
+  }
+
+  .navbar .logo-trans {
+    height: 60px;
+  }
+
+  .navbar .navbtn {
+    height: 35px;
+    width: 35px;
+  }
+
+  .dropdown-menu {
+    top: 60px;
+    right: 10px;
+    width: 200px;
+  }
+
+  .dropdown-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: auto; /* Allow height to adjust based on content */
+    flex-direction: row; /* Keep items in a row */
+    padding: 10px; /* Adjust padding */
+    align-items: center; /* Center items vertically */
+  }
+
+  .navbar .logo-trans {
+    height: 50px; /* Adjust logo size for smaller screens */
+  }
+
+  .navbar .navbtn {
+    height: 30px; /* Adjust nav button size for smaller screens */
+    width: 30px;
+    margin-left: auto; /* Push nav button to the right */
+  }
+
+  .dropdown-menu {
+    top: 50px;
+    right: 0;
+    width: 100%; /* Full width on mobile */
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+    padding: 8px;
+  }
 }

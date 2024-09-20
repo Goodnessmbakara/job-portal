@@ -45,15 +45,15 @@ export const Homepage = () => {
           screenWidth < 1440
             ? "https://c.animaapp.com/MlmHrukd/img/intel-1-1@2x.png"
             : screenWidth >= 1440
-            ? "https://c.animaapp.com/MlmHrukd/img/intel-1-2@2x.png"
-            : undefined
+              ? "https://c.animaapp.com/MlmHrukd/img/intel-1-2@2x.png"
+              : undefined
         }
         meta={
           screenWidth < 1440
             ? "https://c.animaapp.com/MlmHrukd/img/meta-1-1@2x.png"
             : screenWidth >= 1440
-            ? "https://c.animaapp.com/MlmHrukd/img/meta-1-2@2x.png"
-            : undefined
+              ? "https://c.animaapp.com/MlmHrukd/img/meta-1-2@2x.png"
+              : undefined
         }
       />
       <FeaturedJobs className="instance-node-2" />

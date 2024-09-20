@@ -21,7 +21,7 @@
 .navbar-wrapper .nav-buttons {
   height: 24px;
   position: relative;
-  padding: 20px;
+  margin-left: 44vw;
   display: flex;
   justify-content: space-between;
   align-items: center;

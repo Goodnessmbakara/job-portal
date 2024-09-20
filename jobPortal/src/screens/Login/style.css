@@ -1,50 +1,157 @@
+/* Overall layout styles */
 .login {
-  align-items: center;
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw; /* Full viewport width */
+  min-height: 100vh; /* Full viewport height */
+  padding: 5px;
+  gap: 20px;
   position: relative;
 }
 
 .login .navbar-instance {
-  align-self: stretch !important;
-  width: 100% !important;
+  position: fixed;
+  top: 0;
+  width: 100vw; /* Full width */
+  z-index: 10;
 }
 
-.login .navbar-850 {
-  left: 766px !important;
-}
-
-.login .navbar-1440 {
-  left: 722px !important;
+.login .contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* Takes up 70% of the viewport height */
+  width: 100vw;
+  margin-top: 10vh; /* Adjusted margin to account for the navbar height */
+  position: relative;
 }
 
 .login .image {
-  align-self: stretch;
-  display: block;
-  height: 725px;
+  width: 100vw; /* Full viewport width */
+  height: auto;
   object-fit: cover;
-  position: relative;
-  transform: translate(0, 25px);
-  width: 100%;
-}
-
-.login .class {
-  flex: 0 0 auto !important;
+  position: absolute;
+  z-index: 1;
+  top: 0;
 }
 
 .login .class-2 {
-  left: 404px !important;
-  position: absolute !important;
-  top: 349px !important;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.login .class-3 {
-  height: 28px !important;
+.login .class-4, .login .class-3 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: auto; /* Push to bottom */
 }
 
-.login .class-4 {
-  flex: 1 !important;
-  flex-grow: 1 !important;
-  height: unset !important;
+.login .class {
+  flex: 0 0 auto;
+}
+
+/* Navbar specific styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar .logo-trans {
+  height: 50px; /* Responsive logo size */
+}
+
+.navbar .navbtn {
+  height: 40px; /* Responsive button size */
+  cursor: pointer;
+}
+
+/* Responsive Font Sizes */
+body, .login, .navbar {
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem); /* Fluid font sizing */
+}
+
+/* Adjustments for smaller screen sizes */
+@media (max-width: 1199px) {
+  .login {
+    padding: 5px;
+  }
+
+  .login .contain {
+    height: auto;
+    width: 100%; /* Adjust to 100% width */
+  }
+
+  .login .image {
+    width: 100%; /* Make image responsive */
+    height: auto;
+    position: relative;
+  }
+
+  .login .class-2, .login .class-4, .login .class-3 {
+    position: static;
+    z-index: auto;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .navbar .logo-trans {
+    height: 40px; /* Adjusted size for smaller screens */
+  }
+
+  .navbar .navbtn {
+    height: 30px; /* Adjusted button size */
+  }
+
+  .login .contain {
+    margin-top: 15vh; /* Increase margin to avoid navbar overlap */
+  }
+
+  .login .class-2, .login .class-4, .login .class-3 {
+    text-align: center;
+    font-size: clamp(0.8rem, 2vw, 1rem); /* Responsive font size */
+  }
+}
+
+/* Additional mobile styling (for screens < 768px) */
+@media (max-width: 768px) {
+  .login {
+    padding: 10px;
+  }
+
+  .login .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .login .contain {
+    height: auto;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .login .navbar-instance {
+    position: fixed;
+    top: 0;
+  }
+
+  .login .class-2, .login .class-4, .login .class-3 {
+    text-align: center;
+  }
 }

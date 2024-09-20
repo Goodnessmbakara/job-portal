@@ -10,10 +10,10 @@
   font-size: var(--text-20-font-size);
   font-style: var(--text-20-font-style);
   font-weight: var(--text-20-font-weight);
-  left: 0;
   letter-spacing: var(--text-20-letter-spacing);
   line-height: var(--text-20-line-height);
   position: absolute;
-  top: -1px;
   white-space: nowrap;
+  align-self: center;
+  align-items: center;
 }
